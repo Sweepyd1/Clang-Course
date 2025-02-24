@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
+#include "draw.h"
 
 void printRectangle(int h_limit, int v_limit) {
 
@@ -121,11 +122,4 @@ void rainAnimation(int width, int height, int drops) {
 
     }
 
-}
-
-
-int main() {
-  
-
-    return 0;
 }
